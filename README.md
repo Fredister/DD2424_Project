@@ -21,3 +21,4 @@
 ## Contact
 
 Chieh-Ju Wu (Jeremy) - jeremy.cjwukth@gmail.com
+Fredrik Mazur - fredrik@mazur.se
