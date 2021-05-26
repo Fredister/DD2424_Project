@@ -27,7 +27,11 @@ The U-Net architecture of this project consists of an encoder and a decoder part
 
 
 ## Results
-
+### SGD + BCE (50 epochs)
+![50_sgd_bce](https://github.com/Fredister/DL2424_Project/blob/main/Predictions/ForREADME/50_bce_sgd.PNG)
+### Adam + BCE (50 epochs)
+### Adam + Dice (50 epochs)
+### Adam + BCE + BCE (50 epochs)
 
 <!-- CONTACT -->
 ## Contact
