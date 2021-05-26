@@ -8,6 +8,7 @@ This network architecture in this project is based on the original U-Net publica
    * [Requirements](#Requirements)
    * [Experiments](#Experiments)
    * [Results](#Results)
+      * [SGD BCE](#SGD + BCE (50 epochs))
    * [Acknowledgements](#Acknowledgements)
 <!--te-->
 
@@ -30,8 +31,11 @@ The U-Net architecture of this project consists of an encoder and a decoder part
 ### SGD + BCE (50 epochs)
 ![50_sgd_bce](https://github.com/Fredister/DL2424_Project/blob/main/Predictions/ForREADME/50_bce_sgd.PNG)
 ### Adam + BCE (50 epochs)
+![50_adam_bce](https://github.com/Fredister/DL2424_Project/blob/main/Predictions/ForREADME/50_adam_bce.PNG)
 ### Adam + Dice (50 epochs)
+![50_adam_dice](https://github.com/Fredister/DL2424_Project/blob/main/Predictions/ForREADME/50_adam_dice.PNG)
 ### Adam + BCE + BCE (50 epochs)
+![50_adam_bce_dice](https://github.com/Fredister/DL2424_Project/blob/main/Predictions/ForREADME/50_adam_bce_dice.PNG)
 
 <!-- CONTACT -->
 ## Contact
