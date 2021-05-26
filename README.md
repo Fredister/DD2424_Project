@@ -4,17 +4,19 @@ This network architecture in this project is based on the original U-Net publica
 ## Table of contents
 
 <!--ts-->
-   * [Introduction](#Introfuction)
+   * [Introduction](#Introduction)
    * [Requirements](#Requirements)
    * [Experiments](#Experiments)
    * [Results](#Results)
-      * [SGD BCE](#SGD + BCE (50 epochs))
    * [Acknowledgements](#Acknowledgements)
 <!--te-->
 
 
 ## Introduction
 The U-Net architecture of this project consists of an encoder and a decoder part that together givethe network an U-shaped form. The encoder part follows a traditional architecture of aconvolutional network. Each layer consists of a repeated 3x3 padded double convolutions, followed by batch normalization and a rectifier linear units (ReLU) activation.  The output feature map is stored as a skip connection which will later be concatenated to the decoder part. Moving downwardsthrough the network, a down sampling is performed by a 2x2 max pooling operation with a stride of2, which doubles the number of feature channels.
+
+## Dataset
+[Brain MRI images](https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation)
 
 ## Requirements
 - Python  3.9.1
@@ -28,6 +30,8 @@ The U-Net architecture of this project consists of an encoder and a decoder part
 
 
 ## Results
+In this project, it was found that Adam optimiser with Binary Cross-Entropy Loss produce the best test result.
+
 ### SGD + BCE (50 epochs)
 ![50_sgd_bce](https://github.com/Fredister/DL2424_Project/blob/main/Predictions/ForREADME/50_bce_sgd.PNG)
 ### Adam + BCE (50 epochs)
