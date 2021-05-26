@@ -6,6 +6,7 @@ This network architecture in this project is based on the original U-Net publica
 <!--ts-->
    * [Introduction](#Introfuction)
    * [Requirements](#Requirements)
+   * [Experiments](#Experiments)
    * [Results](#Results)
    * [Acknowledgements](#Acknowledgements)
 <!--te-->
@@ -19,6 +20,11 @@ The U-Net architecture of this project consists of an encoder and a decoder part
 - PyTorch 1.8.1
 - CUDA toolkit 10.2
 - Albumentations
+
+## Experiments
+1. Optimiser Comparison - SGD vs Adam
+2. Loss Comparison - Binary Cross-Entropy(BCE) Loss vs Dice Loss vs BCE + Dice
+
 
 ## Results
 
