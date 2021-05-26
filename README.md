@@ -43,8 +43,7 @@ In this project, it was found that Adam optimiser with Binary Cross-Entropy Loss
 
 <!-- CONTACT -->
 ## Contact
-
-Chieh-Ju Wu (Jeremy) - jeremy.cjwukth@gmail.com
-Fredrik Mazur - fredrik@mazur.se
-Niclas Määttä - niclas.maatta@hotmail.com
-Daniel Grönås - daniel.gronas@hotmail.com
+- Chieh-Ju Wu (Jeremy) - jeremy.cjwukth@gmail.com
+- Fredrik Mazur - fredrik@mazur.se
+- Niclas Määttä - niclas.maatta@hotmail.com
+- Daniel Grönås - daniel.gronas@hotmail.com
